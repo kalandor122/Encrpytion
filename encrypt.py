@@ -25,13 +25,11 @@ keythree =  []
 x = random.randrange(1, 10)
 y = random.randrange(1, 999)
 
-print(message)
 for i in range(len(message)):
     keyone.append(str(abc.index(message[i]) + 1))
     keytwo = listToString(keyone)
     keyfour = ''.join(keyone)
     keytwo = keytwo.replace(" ", ",")
-    print(list(keytwo))
 
 
 keythree = (find_indices(list(keytwo), ","))
@@ -50,6 +48,7 @@ print(f"1. kulcs {keythree}")
 print(f"2. kulcs {keyfive}")
 
 print(keyfour)
+
 
 
 
