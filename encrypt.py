@@ -1,4 +1,3 @@
-from art import *
 import random
 
 def listToString(s):
@@ -17,10 +16,7 @@ def find_indices(list_to_check, item_to_find):
     return indices
 
 abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-tprint("-------------")
-tprint("Magor Software")
-tprint("                ENCRYPTION")
-tprint("-------------")
+
 
 message = list(input("what is the message:"))
 keyone = []
@@ -54,6 +50,7 @@ print(f"1. kulcs {keythree}")
 print(f"2. kulcs {keyfive}")
 
 print(keyfour)
+
 
 
 
